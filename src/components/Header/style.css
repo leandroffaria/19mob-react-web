@@ -1,3 +1,10 @@
 .header {
     background-color: #fff159;
+    padding: 8px 0;
+}
+
+.header .logo {
+    float: left;
+    height: 34px;
+    width: 134px;
 }
