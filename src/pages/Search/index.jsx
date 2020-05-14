@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
+import { Link } from 'react-router-dom';
+
 class Search extends React.Component {
     state = {
         results: [],
@@ -28,6 +30,7 @@ class Search extends React.Component {
                 <span>{ id }</span>
                 <span>{ title }</span>
                 <span>{ price }</span>
+                <Link to={ `/product/${id}` } />
             </div>
         ));
     }
