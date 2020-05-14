@@ -30,7 +30,7 @@ class Search extends React.Component {
                 <span>{ id }</span>
                 <span>{ title }</span>
                 <span>{ price }</span>
-                <Link to={ `/product/${id}` } />
+                <Link to={ `/product/${id}` }>Link do botão</Link>
             </div>
         ));
     }
